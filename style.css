@@ -1,0 +1,131 @@
+body
+{
+	background-color: #C0C0C0	;
+	
+}
+#container
+{
+	
+	width: 1210px;
+	margin-left: auto ;
+	margin-right: auto;
+	background-color: white;
+	border-style: double;
+}
+#header
+{
+	font-family: 'VT323', cursive;
+	font-size: 45px;
+	font-style: bold;
+	height: 45px;
+	text-align: center;
+	background-color: #444444;
+	color: white;
+	padding-top:  25px;
+	padding-bottom: 5px;
+}
+#navi
+{
+font-family: 'Dosis';
+	float: left;
+	width: 380px;
+	font-size: 18px;
+	background-color: #999999;
+	height:560px;
+	padding: 10px;
+	line-height: 35px;
+}
+#kontekst
+{
+	float: left;
+	width:774px;
+	font-size: 12px;
+	background-color:#ffffff;
+	color: #666666;
+	height:110px;
+	padding:10px;
+	line-height: 20px;
+	text-align: justify;
+	
+}
+#image
+{
+	float:left;
+	padding: 30px;
+	height:390px;
+	background-color: #ffffff;
+	width:734px;
+}
+img:hover
+{
+	
+	transform: scale(1.02);
+	cursor: none;
+}
+@keyframes zmiana
+{
+	0%{background-color: #666666; }
+	30%{background-color: #555668; }
+	65%{background-color: #555556; }
+	 80%{background-color: #556666;}
+	 100%{background-color: #666666;}
+
+}
+#futer
+{
+	clear: both;
+	font: verdana;
+	font-size: 11px;
+	height:12px;
+	background-color: #666666 ;
+	padding: 10px;
+	letter-spacing: 4px;
+	
+}
+#futer:hover
+{
+	animation-name: zmiana;
+	animation-duration: 3s;
+}
+#header a:link
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+#header a:visited
+{
+	color:#cccccc;
+}
+#header a:hover
+{
+	color: #ffffff;
+
+}
+#navi a:link
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+#navi a:visited
+{
+	color:#cccccc;
+}
+#navi a:hover
+{
+	color: #ccccff;
+	letter-spacing: 1px;
+}
+#kontekst a:link
+{
+	color: #236B3B;
+	text-decoration: none;
+}
+#kontekst a:visited
+{
+	color:#236B3B;
+}
+#kontekst a:hover
+{
+	color: #333333;
+	letter-spacing: 1px;
+}
